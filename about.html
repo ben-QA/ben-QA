@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="title" content="Testing - About us">
+        <meta name="description" content="Automation Testing">
+        <meta name="keywords" content="Automation, Cypress, Selenium">
+        <meta name="author" content="Ben Maylin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      </head>
 
 <style>
  .cat-container {
@@ -23,7 +33,8 @@
             justify-content: center;
         }
         nav a {
-            color: #fff;
+            color: #ffffff;
+            background-color: #333;
             text-decoration: none;
             padding: 10px 20px;
         }
@@ -56,7 +67,7 @@
         }
         .description {
             flex: 0 0 60%; /* 60% width */
-            max-width: 60%;
+            max-width: 100%;
         }
         img {
             max-width: 100%;
@@ -67,27 +78,24 @@
     
 </style>
     <body>
-        <h1>About Page</h1>
         <header>
-            <h1>Testing @ 383</h1>
+            <h1>About us - Testing @ 383</h1>
+        </header> 
             <nav>
             <a href="about.html">About</a>
             <a href="cypress.html">Cypress</a>
             <a href="selenium.html">Selenium</a>
             <a href="compare.html">Comparison</a>
             </nav>
-        </header> 
-        <div class="container">
-            <div class="image">
+        <section class="container">
+        <section class="image">
+        <section class="description">
                 <img src="Images/images.png" alt="Image">
-            </div>
-            <div class="description">
                 <h2>Description</h2>
                 <p>Testing is a crucial aspect of software development, ensuring that applications meet quality standards, perform as expected, and are free of bugs and errors. It involves systematically verifying and validating software against requirements, specifications, and user expectations. Testing encompasses various techniques and approaches, including unit testing, integration testing, system testing, and acceptance testing. Through testing, developers identify defects early in the development process, allowing for timely fixes and improvements, which ultimately leads to more reliable and robust software products.
 
                     Automated testing is a practice that involves using software tools and scripts to automate the execution of test cases and verify application functionality. It offers several benefits, including faster test execution, repeatability, and increased test coverage. .</p>
             <p>Two popular tools for automated testing of web applications are Cypress and Selenium. Cypress is a modern end-to-end testing framework known for its simplicity, speed, and powerful features. It provides automatic waiting, real-time reloads, and time-traveling capabilities, making it easy to write and maintain tests. On the other hand, Selenium is a widely-used open-source testing framework that supports multiple programming languages and browsers. It offers cross-browser compatibility testing and integrates with various testing frameworks and CI/CD tools. Both Cypress and Selenium play essential roles in automated testing, empowering developers to create reliable and efficient test suites for web applications</p>
-            </div>
-        </div>
+        </section>
     </body>
 </html> 
